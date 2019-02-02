@@ -34,7 +34,6 @@ C++ code consists of 5 function
     and return the number of comparison while sorting array.
     
     
-##################################################################
 
 Code written under /***R ..somecode.. */ is the R code 
 which is used for visualization purposes and curve fitting
@@ -53,7 +52,7 @@ R functions and library used
     
     
 
-##################################################################
+
 
 
 
