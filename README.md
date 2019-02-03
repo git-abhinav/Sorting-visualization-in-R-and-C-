@@ -1,9 +1,7 @@
 # Sorting-visualization-in-R-and-C-
-Objective : Size vs Swaps visualization in R and C++
+## READ ME FOR ASSIGNMENT.CPP FILE 
 
-
-
-# READ ME FOR ASSIGNMENT.CPP FILE 
+_Objective : Size vs Swaps visualization in R and C++_
 
 
 The code is written in R and C++,
@@ -11,8 +9,7 @@ Visualization part is done in R
 Sorting algorithms are done  in C++ 
 (using Rcpp library)
 
-C++ code consists of 5 function 
--------------------------------
+## C++ code consists of 5 function 
 
 1)  int insertSort(NumericVector arr, int size)
     
@@ -35,11 +32,10 @@ C++ code consists of 5 function
     
     
 
-Code written under /***R ..somecode.. */ is the R code 
+Code written under _/***R ..somecode.. */_ is the R code 
 which is used for visualization purposes and curve fitting
 
-R functions and library used 
-----------------------------
+## R functions and library used 
 
 1)  plot, and lines function of base R 
     
@@ -50,7 +46,7 @@ R functions and library used
     
     trendline() : for curve fitting and giving summary of plots(R^2 etc)
     
-# How to run
+## How to run
                         
 Connect R the directory that contains assignment.cpp file
 
@@ -60,7 +56,7 @@ just write this line in the console :
 2. Rcpp::sourceCpp(file.choose())   //to manually pick the file.
 
 Then, program will plot 6 plots, automatically. 
-# incase the program is ubable to run properly then check if necessary libraries are installed on the system or not 
-* try :  install.packages(Rcpp)
-  install.packages(basictrendline) 
+# Troubleshoot
+* try :  install.packages(Rcpp) or 
+* install.packages(basictrendline) 
     
