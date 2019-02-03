@@ -56,7 +56,7 @@ just write this line in the console :
 2. Rcpp::sourceCpp(file.choose())   //to manually pick the file.
 
 Then, program will plot 6 plots, automatically. 
-# Troubleshoot
+## Troubleshoot
 * try :  install.packages(Rcpp) or 
 * install.packages(basictrendline) 
     
